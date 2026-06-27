@@ -7,4 +7,5 @@ def speak(text):
     engine.say(text)
     
     engine.runAndWait()
-speak("Hello, I am your assistant. How can I help you today?")    
+
+speak("Hello, I am your assistant")    
