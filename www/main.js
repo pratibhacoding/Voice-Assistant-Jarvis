@@ -32,7 +32,15 @@ $(document).ready(function() {
             effect: 'fadeOutUp',
             sync: true,
         },
-    })
+    });
 
+     // mic button click event
+
+    $("#MicBtn").click(function () {
+        eel.playAssistantSound()
+        $("#Oval").attr("hidden", true);
+        $("#SiriWave").attr("hidden", false);
+        eel.allCommands()()
+    });
 
 });
