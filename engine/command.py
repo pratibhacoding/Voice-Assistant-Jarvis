@@ -8,4 +8,4 @@ def speak(text):
     
     engine.runAndWait()
 
-speak("Hello, I am your assistant")    
+speak("Hello, I am your assistant Jarvis. How can I help you today?")    
